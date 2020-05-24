@@ -125,6 +125,11 @@ h1 {
 	border-radius: 0px;
 }
 
+.form-contact input:focus, .form-contact select:focus, .form-contact textarea:focus {
+	box-shadow: none;
+}
+
+
 .form-title {
 	margin: 30px auto 0;
 	text-align: center;
