@@ -20,6 +20,8 @@ h1 {
 
 /* NAVEGAÇÂO */
 
+
+
 .form-seach {
 	width: 20vw; 
 	height: 35px;
@@ -77,6 +79,20 @@ h1 {
 
 .home-animacao {
 	margin-top: 100px;
+	opacity: 0;
+	transition: 5s;
+}
+
+.left-content {
+	margin-left: 100vw;
+	min-width:100vw;
+	transition: 3s;
+}
+
+.right-content {
+	margin-left: -100vw;
+	min-width:100vw;
+	transition: 3s;
 }
 
 .home-content p {
